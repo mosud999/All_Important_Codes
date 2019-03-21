@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="homework1">
+	<test name="ChromeTest"> <!--test name given based on what test i am doing -->
+		<parameter name="browser" value="chrome"/> <!--set parameter values -->
+		<parameter name="url" value="https://www.eshopper24.com/"/>
+		<classes>
+			<class name="web.menus.store.in.excelFile.WebMenusStoringInExcelFile"></class>
+		</classes>
+	</test>
+
+</suite>
+

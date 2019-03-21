@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ptest" parallel="tests">
+	<test name="ChromeTest"> <!--test name given based on what test i am doing -->
+		<parameter name="browser" value="chrome"/> <!--set parameter values -->
+		<parameter name="url" value="https://www.google.com/"/>
+		<classes>
+			<class name="com.bit.test.ParallelTestingTestNG"> </class>
+		</classes>
+	</test>
+	
+	<test name="FirefoxTest">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="http://bdjobs.com" />
+		<classes>
+			<class name="com.bit.test.ParallelTestingTestNG2"></class>
+		</classes>
+	
+	</test>
+
+</suite>
+

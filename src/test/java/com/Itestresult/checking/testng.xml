@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testreportcondition">
+	<test name="test">
+		<classes>
+			<class name="com.Itestresult.checking.ITestResultReportTesting"></class>
+		</classes>
+	
+	</test>
+</suite>
+

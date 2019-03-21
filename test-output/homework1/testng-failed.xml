@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [homework1]">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.eshopper24.com/"/>
+    <classes>
+      <class name="Store.values.in.array.WebMenusStoringInExcelFile">
+        <methods>
+          <include name="storeWebMenusInArray"/>
+          <include name="tearDown"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- Store.values.in.array.WebMenusStoringInExcelFile -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [homework1] -->

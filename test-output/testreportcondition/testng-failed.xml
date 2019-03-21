@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testreportcondition]">
+  <test thread-count="5" name="test(failed)">
+    <classes>
+      <class name="com.Itestresult.checking.ITestResultReportTesting">
+        <methods>
+          <include name="Test1"/>
+          <include name="closingReport"/>
+        </methods>
+      </class> <!-- com.Itestresult.checking.ITestResultReportTesting -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [testreportcondition] -->
